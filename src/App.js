@@ -7,8 +7,7 @@ import bottle from './seabottle.jpg';
 export default function App() {
     // Just a state variable we use to store our user's public wallet address
     const [currAccount, setCurrentAccount] = React.useState("");
-    // const contractAddress = "0x6e630dF205522C9A3F694BF053a4588f5FB8cCaF"
-    const contractAddress = "0x5997DAbBCf005fcA629D437AFde7666f0d512355"
+    const contractAddress = "0x1125Bfc01daeaa3a9Ef1D0E3009c43DAA973F049";
     
     const contractABI = abiObj.abi;
     const [covidMessage, setCovidMessage] = React.useState("");
@@ -70,7 +69,7 @@ export default function App() {
     let count = await waveportalContract.getTotalWaves();
     console.log("Retrieved total wave count...", count.toNumber());
 
-    const waveTxn = await waveportalContract.wave(message);
+    const waveTxn = await waveportalContract.wave(message, { gasLimit: 300000 });
     console.log("Mining...", waveTxn.hash)
     await waveTxn.wait()
     console.log("Mined -- ", waveTxn.hash)
@@ -97,6 +96,15 @@ export default function App() {
     })
 
     setAllWaves(wavesCleaned.reverse());
+
+    waveportalContract.on("NewWave", (from, timestamp, message) => {
+      console.log("NewWave", from, timestamp, message);
+      setAllWaves(oldArray => [...oldArray, {
+        address: from,
+        timestamp: new Date(timestamp * 1000),
+        message: message
+      }])
+    })
   }
 
   const handleSubmit = (e) => {
