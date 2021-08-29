@@ -1,7 +1,8 @@
 import * as React from "react";
 import { ethers } from "ethers";
 import './App.css';
-import abiObj from './utils/WavePortal.json'
+import abiObj from './utils/WavePortal.json';
+import bottle from './seabottle.jpg';
 
 export default function App() {
     // Just a state variable we use to store our user's public wallet address
@@ -114,7 +115,7 @@ export default function App() {
 
       <div className="dataContainer">
         <div className="header">
-        Pandemic in a Bottle
+        Pandemic in a Bottle ✉️🍾
         </div>
 
         <div className="bio">
@@ -152,10 +153,17 @@ export default function App() {
 
         {allWaves.map((wave, index) => {
           return (
-            <div style={{backgroundColor: "white", marginTop: "16px", padding: "8px", borderRadius: "9px"}}>
-              <div className="address">Address: {wave.address}</div>
-              <div className="time">Time: {wave.timestamp.toString()}</div>
-              <div className="storedMessage">Message: {wave.message}</div>
+            <div className="messageContainer">
+              <div className="messageImageContainer">
+                <div className="avatarImageWrapper">
+                  <img src={bottle} className="avatarImage"></img>
+                </div>
+              </div>
+              <div className="messageDetailsContainer">
+                <div className="address">Address: {wave.address}</div>
+                <div className="time">Time: {wave.timestamp.toString()}</div>
+                <div className="storedMessage">Message: {wave.message}</div>
+              </div>
             </div>
           )
         })}
