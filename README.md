@@ -13,7 +13,7 @@ The smart contract address is 0x1125Bfc01daeaa3a9Ef1D0E3009c43DAA973F049. It can
 
 Pre-requisites for using this application:
 
-1. You need a [MetaMask wallet](metamask.io).
-2. You need to claim free Ethereum from the [Rinkeby Faucet](faucet.rinkeby.io).
+1. You need a [MetaMask wallet](https://metamask.io/).
+2. You need to claim free Ethereum from the [Rinkeby Faucet](https://faucet.rinkeby.io/).
 
 [Open the application](https://nathanjreidy.github.io/pandemic-in-a-bottle-solidity-UI/).
