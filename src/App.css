@@ -2,7 +2,8 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  margin-top: 64px;
+  margin-top: 32px;
+  padding: 2rem;
 }
 
 .dataContainer {
@@ -20,7 +21,7 @@
 
 .bio {
   text-align: center;
-  color: gray;
+  color: black;
   margin-top: 16px;
 }
 
@@ -31,4 +32,67 @@
   border: 0;
   border-radius: 5px;
   
+}
+
+#bottle {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 100%;
+  height: 100%;
+}
+
+#bottle img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.covidMessage {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 6rem;
+  padding-bottom: 4rem;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  border-radius: 9px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: medium;
+}
+
+.covidMessage::placeholder {
+  /* padding-left: 1rem;
+  padding-top: 1rem; */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: medium;
+} 
+
+.address {
+  padding-bottom: 0.5rem;
+}
+
+.time {
+  padding-bottom: 0.5rem;
 }
