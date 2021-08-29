@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "32bb4245c3f4e2454ae1d8d03d5cafc9",
+    "revision": "6f280b4465c9521e8a2a61aba0b150e1",
     "url": "/pandemic-in-a-bottle-solidity-UI/index.html"
   },
   {
-    "revision": "87f651d756f386267379",
-    "url": "/pandemic-in-a-bottle-solidity-UI/static/css/main.b542d44c.chunk.css"
+    "revision": "19383a94a7ddfddbe8e6",
+    "url": "/pandemic-in-a-bottle-solidity-UI/static/css/main.2f444028.chunk.css"
   },
   {
     "revision": "ee064d480d8c37d33300",
     "url": "/pandemic-in-a-bottle-solidity-UI/static/js/2.5f5d4044.chunk.js"
   },
   {
-    "revision": "87f651d756f386267379",
+    "revision": "19383a94a7ddfddbe8e6",
     "url": "/pandemic-in-a-bottle-solidity-UI/static/js/main.57a8ccf4.chunk.js"
   },
   {
