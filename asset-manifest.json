@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/pandemic-in-a-bottle-solidity-UI/static/css/main.b542d44c.chunk.css",
-    "main.js": "/pandemic-in-a-bottle-solidity-UI/static/js/main.047cdc8e.chunk.js",
-    "main.js.map": "/pandemic-in-a-bottle-solidity-UI/static/js/main.047cdc8e.chunk.js.map",
+    "main.js": "/pandemic-in-a-bottle-solidity-UI/static/js/main.57a8ccf4.chunk.js",
+    "main.js.map": "/pandemic-in-a-bottle-solidity-UI/static/js/main.57a8ccf4.chunk.js.map",
     "runtime-main.js": "/pandemic-in-a-bottle-solidity-UI/static/js/runtime-main.3f1f26c3.js",
     "runtime-main.js.map": "/pandemic-in-a-bottle-solidity-UI/static/js/runtime-main.3f1f26c3.js.map",
     "static/js/2.5f5d4044.chunk.js": "/pandemic-in-a-bottle-solidity-UI/static/js/2.5f5d4044.chunk.js",
     "static/js/2.5f5d4044.chunk.js.map": "/pandemic-in-a-bottle-solidity-UI/static/js/2.5f5d4044.chunk.js.map",
     "index.html": "/pandemic-in-a-bottle-solidity-UI/index.html",
-    "precache-manifest.b2ce2c4e94c73ae05217a0b16c401f71.js": "/pandemic-in-a-bottle-solidity-UI/precache-manifest.b2ce2c4e94c73ae05217a0b16c401f71.js",
+    "precache-manifest.2d5b06900a4a520893d5d109e1e0d838.js": "/pandemic-in-a-bottle-solidity-UI/precache-manifest.2d5b06900a4a520893d5d109e1e0d838.js",
     "service-worker.js": "/pandemic-in-a-bottle-solidity-UI/service-worker.js",
     "static/css/main.b542d44c.chunk.css.map": "/pandemic-in-a-bottle-solidity-UI/static/css/main.b542d44c.chunk.css.map",
     "static/media/seabottle.jpg": "/pandemic-in-a-bottle-solidity-UI/static/media/seabottle.de87c146.jpg"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.3f1f26c3.js",
     "static/js/2.5f5d4044.chunk.js",
     "static/css/main.b542d44c.chunk.css",
-    "static/js/main.047cdc8e.chunk.js"
+    "static/js/main.57a8ccf4.chunk.js"
   ]
 }

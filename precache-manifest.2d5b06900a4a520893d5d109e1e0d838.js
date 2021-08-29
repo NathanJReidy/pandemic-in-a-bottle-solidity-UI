@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "63c8f1effc3f55e1a12f9e9edae48492",
+    "revision": "32bb4245c3f4e2454ae1d8d03d5cafc9",
     "url": "/pandemic-in-a-bottle-solidity-UI/index.html"
   },
   {
-    "revision": "7900cbdff79bba7f77e6",
+    "revision": "87f651d756f386267379",
     "url": "/pandemic-in-a-bottle-solidity-UI/static/css/main.b542d44c.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pandemic-in-a-bottle-solidity-UI/static/js/2.5f5d4044.chunk.js"
   },
   {
-    "revision": "7900cbdff79bba7f77e6",
-    "url": "/pandemic-in-a-bottle-solidity-UI/static/js/main.047cdc8e.chunk.js"
+    "revision": "87f651d756f386267379",
+    "url": "/pandemic-in-a-bottle-solidity-UI/static/js/main.57a8ccf4.chunk.js"
   },
   {
     "revision": "26b5477b1559e52dc334",

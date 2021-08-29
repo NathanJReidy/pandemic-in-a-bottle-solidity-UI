@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/pandemic-in-a-bottle-solidity-UI/precache-manifest.b2ce2c4e94c73ae05217a0b16c401f71.js"
+  "/pandemic-in-a-bottle-solidity-UI/precache-manifest.2d5b06900a4a520893d5d109e1e0d838.js"
 );
 
 self.addEventListener('message', (event) => {
