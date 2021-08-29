@@ -144,22 +144,22 @@ export default function App() {
           make it count.
         </div>
 
-        <form className="form" onSubmit={handleSubmit}>
-          <textarea
-            type="text"
-            placeholder="Enter message to future generations"
-            id="covidMessage"
-            className="covidMessage"
-            name="covidMessage"
-            value={covidMessage}
-            onChange={(e) => setCovidMessage(e.target.value)}
-            required
-          ></textarea>
+        {currAccount ? (
+          <form className="form" onSubmit={handleSubmit}>
+            <textarea
+              type="text"
+              placeholder="Enter message to future generations"
+              id="covidMessage"
+              className="covidMessage"
+              name="covidMessage"
+              value={covidMessage}
+              onChange={(e) => setCovidMessage(e.target.value)}
+              required
+            ></textarea>
 
-          <button className="waveButton">Wave Goodbye to Covid 👋</button>
-        </form>
-
-        {currAccount ? null : (
+            <button className="waveButton">Wave Goodbye to Covid 👋</button>
+          </form>
+        ) : (
           <button className="connectWalletButton" onClick={connectWallet}>
             Connect Wallet
           </button>
