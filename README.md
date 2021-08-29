@@ -1,6 +1,10 @@
+# Pandemic in a Bottle, UI: Ethereum, Web 3.0 Solidity App
+
 This application is built and deployed on the Rinkeby Ethereum test network blockchain. This repo contains the UI, and the solidity code which governs the smart contract functionality can be found in a separate repo [here](https://github.com/NathanJReidy/pandemic-in-a-bottle-solidity).
 
 You can use this application to store a message about how humans have dealt with the Covid-19 pandemic. Your message will then be stored on the Rinkeby Ethereum test network.
+
+[![Ethereum App Preview](../src/app.PNG)]
 
 The smart contract is coded in Solidity and has 0.1 Ethereum from the Rinkeby testnet pro-loaded onto it. Each user that submits a message has a 50% change of winning 0.0001 Ethereum.
 A 10 second spam filter has been added to deter bots, which means you have to wait at least 10 seconds between submitting messages.
@@ -12,4 +16,4 @@ Pre-requisites for using this application:
 1. You need a [MetaMask wallet](metamask.io).
 2. You need to claim free Ethereum from the [Rinkeby Faucet](faucet.rinkeby.io).
 
-[Open the application](google.com).
+[Open the application](https://nathanjreidy.github.io/pandemic-in-a-bottle-solidity-UI/).
