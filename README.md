@@ -1,66 +1,15 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This application is built and deployed on the Rinkeby Ethereum test network blockchain. This repo contains the UI, and the solidity code which governs the smart contract functionality can be found in a separate repo [here](https://github.com/NathanJReidy/pandemic-in-a-bottle-solidity).
 
-## Running on Repl.it
+You can use this application to store a message about how humans have dealt with the Covid-19 pandemic. Your message will then be stored on the Rinkeby Ethereum test network.
 
-Simply hit run once and start coding. Will hot reload the web view. 
+The smart contract is coded in Solidity and has 0.1 Ethereum from the Rinkeby testnet pro-loaded onto it. Each user that submits a message has a 50% change of winning 0.0001 Ethereum.
+A 10 second spam filter has been added to deter bots, which means you have to wait at least 10 seconds between submitting messages.
 
-## Running Scripts
+The smart contract address is 0x1125Bfc01daeaa3a9Ef1D0E3009c43DAA973F049. It can be viewed on the Ethereum Rinkeby testnet via Etherscan [here](https://rinkeby.etherscan.io/address/0x1125Bfc01daeaa3a9Ef1D0E3009c43DAA973F049).
 
-You can open a new shell window by hitting command+shift+S on macOS or control+shift+S (you can also access shortcuts from the `?` in the bottom right corner).
+Pre-requisites for using this application:
 
-When in the shell you can run any of the following scripts:
+1. You need a [MetaMask wallet](metamask.io).
+2. You need to claim free Ethereum from the [Rinkeby Faucet](faucet.rinkeby.io).
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+[Open the application](google.com).
